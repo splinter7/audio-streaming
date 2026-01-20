@@ -21,3 +21,9 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
