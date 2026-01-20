@@ -1,0 +1,70 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app-container {
+  background: #141414;
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: none;
+  border: 1px solid #1f1f1f;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.app-title {
+  color: #f5f5f5;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-shadow: none;
+}
+
+.status-info {
+  margin: 1.5rem 0;
+}
+
+.status-text {
+  color: #e5e5e5;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.connect-btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.75rem;
+  background: #1f1f1f;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  color: #f5f5f5;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  box-shadow: none;
+}
+
+.connect-btn:hover:not(:disabled) {
+  background: #262626;
+  transform: translateY(-2px);
+  border-color: #4a4a4a;
+}
+
+.connect-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.connect-btn:disabled {
+  background: #2a2a2a;
+  cursor: not-allowed;
+  opacity: 0.6;
+  border-color: #3a3a3a;
+}

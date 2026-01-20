@@ -1,0 +1,20 @@
+{
+  "name": "audio-streaming-server",
+  "version": "1.0.0",
+  "description": "WebRTC server for streaming audio chunks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@roamhq/wrtc": "^0.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
